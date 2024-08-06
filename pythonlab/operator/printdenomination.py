@@ -1,0 +1,22 @@
+amount = int(input("Enter your amount:"))
+if amount % 50 == 0:
+    if amount >= 2000:
+        notes = amount // 2000
+        print(f"2000 x {notes} = {notes*2000}" )
+        amount = amount - (notes*2000)
+    if amount >= 500:
+        notes = amount // 500
+        print(f"500 x {notes} = {notes * 500}")
+        amount = amount - (notes * 500)
+    if amount >= 200:
+        notes = amount // 200
+        print(f"200 x {notes} = {notes * 200}")
+        amount = amount - (notes * 200)
+    if amount >= 100:
+        notes = amount // 100
+        print(f"100 x {notes} = {notes * 100}")
+        amount = amount - (notes * 100)
+    if amount >= 50:
+        notes = amount // 50
+        print(f"50 x {notes} = {notes * 50}")
+        amount = amount - (notes * 50)
