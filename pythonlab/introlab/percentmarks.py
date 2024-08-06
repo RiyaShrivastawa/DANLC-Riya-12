@@ -1,0 +1,7 @@
+Maths = int(input("Enter maths number"))
+English = int(input("Enter English number"))
+Hindi = int(input("Enter Hindi number"))
+Socialstd = int(input("Enter SST number"))
+Science = int(input("Enter Science number"))
+percent = int((Maths +English +Hindi+Socialstd +Science)/5)
+print(percent,"%")
